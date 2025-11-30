@@ -55,7 +55,7 @@
                                           LaunchCommand="{Binding LaunchCmd}"
                                           OpenDownloadingCommand="{Binding OpenDownloadingCmd}"
                                           OpenSettingCommand="{Binding OpenSettingCmd}"
-                                          DownloadTaskCount="{Binding DownloadTaskCount}"
+                                          DownloadTaskCount="{Binding DownloadTaskCount}" Loaded="MainPanelControl_Loaded"
                                           />
         </Grid>
         <ToggleButton Style ="{DynamicResource MetroCircleToggleButtonStyle}"

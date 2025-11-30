@@ -10,9 +10,9 @@
              mc:Ignorable="d"  d:DataContext="{d:DesignInstance Type=vm:LaunchingDialogViewModel, IsDesignTimeCreatable=True}"
              d:DesignWidth="800">
     <StackPanel Margin="10">
-        <Label Content="{StaticResource String.Mainwindow.Launching}" HorizontalAlignment="Center" FontSize="24"/>
+        <Label Content="正在启动中" HorizontalAlignment="Center" FontSize="24"/>
         <controls:ProgressRing Margin="0,20,0,10"/>
-        <TextBlock Text="{Binding State}" HorizontalAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center"><Run Text="初始化"/><Run Text="启动器与联机核心"/><LineBreak/><Run/></TextBlock>
         <TextBlock Text="{Binding LogLine}" Foreground="{DynamicResource GrayNormalBrush}" HorizontalAlignment="Center" TextWrapping="NoWrap"/>
         <Button Content="取消启动" Command="{Binding CancelLaunchingCommand}" HorizontalAlignment="Center" Padding="20,0" Margin="0,15,0,10"/>
     </StackPanel>

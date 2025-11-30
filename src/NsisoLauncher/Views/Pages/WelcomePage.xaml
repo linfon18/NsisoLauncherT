@@ -19,5 +19,6 @@
             <Image Source="/NsisoLauncher;component/Resource/icon.ico" Stretch="None" Margin="20" HorizontalAlignment="Center"/>
             <!--<controls:ProgressRing Foreground="White" Width="40" Height="40" HorizontalAlignment="Center"/>-->
         </StackPanel>
+        <controls:ProgressRing Margin="0,335,0,0" Foreground="#CCFFFFFF" VerticalAlignment="Top" Height="68" Width="87"/>
     </Grid>
 </Page>

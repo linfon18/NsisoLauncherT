@@ -30,7 +30,13 @@ namespace NsisoLauncherCore.Net.PhalAPI
         public int Total { get; set; }
 
         [JsonProperty("err_msg")]
-        public string ErrorMessage { get; set; }
+        public string Error
+        
+        
+        
+        
+        
+        { get; set; }
 
         [JsonProperty("err_code")]
         public int ErrorCode { get; set; }

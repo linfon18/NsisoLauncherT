@@ -26,5 +26,10 @@ namespace NsisoLauncher.Views.Pages
             ViewModels.Pages.MainPageViewModel vm = new ViewModels.Pages.MainPageViewModel(mainWindowVM);
             this.DataContext = vm;
         }
+
+        private void MainPanelControl_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
